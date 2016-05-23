@@ -34,4 +34,8 @@ bash Anaconda2-4.0.0-Linux-x68_64.sh
 
 ![spyder](http://i.imgur.com/60fqy4Y.gif)
 
+### Anaconda Official Website
+
+[অফিশিয়াল ওয়েবসাইট](https://www.continuum.io/downloads)
+
 পরবর্তী পর্বে আমরা রিগ্রেশন অ্যানালাইসিস দেখব উদাহরণের মাধ্যমে।
