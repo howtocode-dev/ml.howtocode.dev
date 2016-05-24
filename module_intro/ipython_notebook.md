@@ -1,3 +1,6 @@
+> There are only two kinds of languages: the ones people complain about and the ones nobody uses
+> -------- Bjarne Stroustrup
+
 ## মেশিন লার্নিংয়ের জন্য পাইথন লাইব্রেরি
 
 মেশিন লার্নিংয়ের জন্য পাইথনের যেসব লাইব্রেরি ব্যবহার করা হবে:
