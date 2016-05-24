@@ -1,5 +1,5 @@
 > There are only two kinds of languages: the ones people complain about and the ones nobody uses
-> -------- Bjarne Stroustrup
+> -- Bjarne Stroustrup
 
 ## মেশিন লার্নিংয়ের জন্য পাইথন লাইব্রেরি
 
@@ -42,6 +42,10 @@
 ### নোটবুক ডেমো
 
 একটা ছোট্ট ডেমো
+
+#### বেসিক ইন্স্ট্রাকশন
+* কোড লিখে `Enter` চাপলে নতুন লাইনে লেখা যাবে
+* `Shift + Enter` চাপলে একটা `Cell` এক্সিকিউট হবে
 
 ![ipython_demo](http://i.imgur.com/JX1RvyC.gif)
 
