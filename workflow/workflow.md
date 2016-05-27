@@ -44,7 +44,7 @@ predicted_price = linear_regression_model.predict(test_house_size)
 
 ***
 
-## মেশিন লার্নিং ওয়ার্কফ্লো কী বোঝায়?
+## মেশিন লার্নিং ওয়ার্কফ্লো বলতে কী বোঝায়?
 
 কেতাবি সংজ্ঞানুসারে,
 
