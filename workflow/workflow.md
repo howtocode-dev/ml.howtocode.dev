@@ -52,7 +52,7 @@ predicted_price = linear_regression_model.predict(test_house_size)
 
 ***
 
-**An orchestrated and repeatable pattern: **
+**An orchestrated and repeatable pattern:**
  
 এর মানে, একই ওয়ার্কফ্লো দিয়ে আমরা সমস্যা ডিফাইন করব, এবং সেই ওয়ার্কফ্লো দিয়েই আমরা সল্যুশন বিল্ড করব।
 
