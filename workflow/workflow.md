@@ -87,7 +87,7 @@ predicted_price = linear_regression_model.predict(test_house_size)
 
 ### অ্যালগরিদম সিলেক্ট করা
 
-![selectalgo]()
+![selectalgo](http://i.imgur.com/LJ8yM4f.png)
 
 সবচেয়ে কঠিনতম কাজই হল অ্যালগরিদম সিলেক্ট করা। যেসব সমস্যায় সাধারণ লিনিয়ার রিগ্রেশন ব্যবহার করেই কাজ করা যায় সেসব ক্ষেত্রে আর্টিফিশিয়াল নিউরাল নেট ব্যবহার করার কোন মানে হয় না।
 
@@ -99,7 +99,7 @@ predicted_price = linear_regression_model.predict(test_house_size)
 
 ### মডেল ট্রেইনিং
 
-![model_training](http://i.imgur.com/qTjV2Wi.jpg)
+![model_training](http://i.imgur.com/A6m2fDS.png)
 
 আমার হাতে থাকা ডেটাসেট দুইভাগে ভাগ করব, একটা হল Training Dataset এবং আরেকটি হল Testing Dataset।
 
@@ -107,7 +107,7 @@ Testing Dataset এর কোন ডেটা-ই Training Dataset এ থাক
 
 ### মডেল টেস্টিং
 
-![testing_model](http://i.imgur.com/qTjV2Wi.jpg)
+![testing_model](http://i.imgur.com/YglPD3U.png)
 
 Dataset দুইভাগে ভাগ করার কারণ হচ্ছ, ট্রেইনিং ডেটা দেওয়ার মাধ্যমে মডেলকে আগে শিখাতে হবে। তারপর একটা ইনপুট চয়েস করতে হবে (Testing Dataset) ও ইনপুট টি মডেলকে দিলে তার প্রেডিক্টেড আউটপুট কতটা সঠিক বা ভুল সেটা বের করা যাবে।
 
