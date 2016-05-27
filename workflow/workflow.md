@@ -4,7 +4,7 @@
 
 ## `scikit-learn` এর তিনটি অংশ:
 
-![model](http://i.imgur.com/UUYT3lR.png)
+![model](http://i.imgur.com/jcYMJNXr.png)
 
 ## মডেল
 
