@@ -7,5 +7,5 @@
 * [মেশিন লার্নিং পাইথন টুলস](module_intro/python_tools.md)
    *  [IPython/ Jupyter Notebook পরিচিতি](module_intro/ipython_notebook.md)
 * [মেশিন লার্নিং কাজের ধারা](workflow/workflow.md)
-   * [কীভাবে সঠিক প্রশ্ন করতে হয়?](#)
+   * [কীভাবে সঠিক প্রশ্ন করতে হয়?](askquestion/askingRightQuestion.md)
 
