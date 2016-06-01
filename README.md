@@ -110,6 +110,7 @@
 যদি একজন ফুল স্ট্যাক জাভাস্ক্রিপ্ট ডেভেলপার তার ওয়েব অ্যাপে ML মেথড অ্যাপ্লাই করতে চাইলে তাকে নতুন করে Python শিখতে হবে, এইসব ঝামেলা এড়ানোর জন্য একই জিনিস ভিন্ন ভিন্ন প্ল্যাটফর্মে অ্যাপ্লাই করে দেখানো হবে। 
 
 ## কোন কোন বই ফলো করা হবে?
+
 * Machine Learning in Python : Essential Techniques for Predictive Analysis [Wiley] - Michael Bowles
 * Mastering Machine Learning with Scikit-Learn [PACKT]
 * Data Science from Scratch [OREILY] - Joel Grus
@@ -119,7 +120,6 @@
 ## মেশিন লার্নিং নিয়ে কোন কোন টিভি সিরিজ বানানো হয়েছে?
 
 মেশিন লার্নিং ব্যাপারটা জটিল ও কাঠখোট্টা লাগলেও, কোন কিছু শেখার সময় শুধু থিওরি জানলে সেটা জটিল ও নিরস থেকে যায়। কিন্তু আমরা যদি পাশাপাশি ঔ টপিক রিলেটেড মুভি বা সিরিজ দেখি তাহলে আমাদের আগ্রহ বহুগুণ বেড়ে যায়। সেজন্য এই সংক্ষিপ্ত লিস্ট।
-
 
 * ### [Person Of Interest](http://www.imdb.com/title/tt1839578/?ref_=fn_al_tt_1)
 
