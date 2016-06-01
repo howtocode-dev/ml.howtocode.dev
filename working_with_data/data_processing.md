@@ -4,7 +4,7 @@
 
 আমরা আজকে মেশিন লার্নিংয়ের দ্বিতীয় ধাপ দেখব। দ্বিতীয় ধাপে ছিল,
 
-![prepare_data_workflow]()
+![prepare_data_workflow](http://i.imgur.com/qTjV2Wi.jpg)
 
 
 মেশিন লার্নিং মানেই ডেটা নিয়ে কাজ কারবার, তাই আমি যদি বলি, ডেটা সংগ্রহ, প্রসেস করতেই মডেল বিল্ডিংয়ের সবচেয়ে বেশি সময় ব্যয় হয় সেটা আশ্চর্যের কিছু নয়।
@@ -151,18 +151,21 @@
 ## Pandas ফ্রেমওয়ার্ক দিয়ে ডেটা এক্সপ্লোরেশন
 
 
-ipython notebook সম্পর্কে কিছুটা জেনেছেন তো? না জেনে থাকলে [এখান থেকে]() একবার দেখে নিন।
+ipython notebook সম্পর্কে কিছুটা জেনেছেন তো? না জেনে থাকলে [এখান থেকে](http://ml.howtocode.com.bd/module_intro/ipython_notebook.html) একবার দেখে নিন।
 
 * উইন্ডোজে থাকলে `cmd` ওপেন করুন ও নিচের কমান্ড দিয়ে নোটবুক ওপেন করুন
    * `ipython notebook`
    * যদি ঔ কমান্ড না কাজ করে তাহলে এটা ট্রাই করুন `jupyter notebook`
 
-![ipython]()
+![ipython](http://i.imgur.com/RfREmVD.gif)
+
+
 
 
 * আপনার ব্রাউজার ওপেন হলে `New > Python 2` একটি পাইথন ফাইল ওপেন করুন আর এখানে দেখানো কাজগুলো করে ফেলুন।
 
-![import]()
+![ipython2](http://i.imgur.com/u70wHTS.gif)
+
 
 ### প্রয়োজনীয় লাইব্রেরি ইম্পোর্ট
 
@@ -178,6 +181,8 @@ import numpy as np
 ```
 
 ### ডেটা লোড ও রিভিউ
+
+![import](http://i.imgur.com/egqIvbd.gif)
 
 #### `pd.read_csv('file_path')`
 
