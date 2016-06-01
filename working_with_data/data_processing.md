@@ -153,7 +153,7 @@
 
 ***
 
-## Pandas ফ্রেমওয়ার্ক দিয়ে ডেটা এক্সপ্লোরেশন
+## Pandas লাইব্রেরি দিয়ে ডেটা এক্সপ্লোরেশন
 
 
 ipython notebook সম্পর্কে কিছুটা জেনেছেন তো? না জেনে থাকলে [এখান থেকে](http://ml.howtocode.com.bd/module_intro/ipython_notebook.html) একবার দেখে নিন।
