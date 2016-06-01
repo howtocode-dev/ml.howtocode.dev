@@ -1,3 +1,8 @@
+> “Give me six hours to chop down a tree and I will spend the first four sharpening the axe.” 
+― Abraham Lincoln
+
+***
+
 # ডেটা প্রস্তুত করা (ডেটা কালেকশন ও প্রিপ্রসেসিং) - ১
 
 আমরা আগের পর্বে দেখেছি সঠিক প্রশ্নের মাধ্যমে আমাদের টার্গেট স্টেটমেন্ট তৈরি করে কীভাবে।
