@@ -1,4 +1,4 @@
-<iframe scrolling="auto" frameborder="0" style="border:none; overflow:hidden; height:170px; width:100%;" allowTransparency="true" src="http://www.howtocode.com.bd/like.html"></iframe>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fweb.facebook.com%2Fhowtocode.com.bd%2F&width=450&layout=standard&action=like&show_faces=true&share=true&height=80&appId=409814195740224" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
 [কোর্স এর মুল পাতা](http://ml.howtocode.com.bd/) | [HowToCode মূল সাইট](http://www.howtocode.com.bd/) | [সবার জন্য প্রোগ্রামিং ব্লগ](http://blog.howtocode.com.bd/) | [পিডিএফ ডাউনলোড](https://www.gitbook.com/download/pdf/book/howtocode-com-bd/-ml)
 
@@ -6,7 +6,7 @@
 
 [![Join the chat at https://gitter.im/howtocode-com-bd/ml.howtocode.com.bd](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/howtocode-com-bd/ml.howtocode.com.bd?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-<iframe scrolling="auto" frameborder="0" style="border:none; overflow:hidden; height:170px; width:100%; margin-left: 15;" allowTransparency="true" src="http://api.howtocode.com.bd/contrib/ml"></iframe>
+<iframe scrolling="auto" frameborder="0" style="border:none; overflow:hidden; height:170px; width:100%; margin-left: 15;" allowTransparency="true" src="http://www.howtocode.com.bd/contributions.html?repo=ml"></iframe>
 
 
 ## ভূমিকা
