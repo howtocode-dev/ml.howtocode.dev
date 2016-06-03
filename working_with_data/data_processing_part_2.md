@@ -139,7 +139,7 @@ print data_frame.isnull().values.any()
 
 ##### `values.any()`
 
-![checkdata2](http://i.imgur.com/PslceFv.gifv)
+![checkdata2](http://i.imgur.com/PslceFv.gif)
 
 `isnull()` রিটার্ন করে ডেটাফ্রেম, কিন্তু `.values` দিলে সেটা `True/False` এর একটা অ্যারে তে পরিণত হয়।
 
@@ -148,7 +148,7 @@ print data_frame.isnull().values.any()
 `pima-data.csv` ফাইলে কোন ফাঁকা ডেটা নাই। তাই এই প্রোগ্রাম স্টেটমেন্টটি কল করলে `False` দেখায়।
 
 #### ইচ্ছাকৃত একটা Cell ডিলেট করে আবার `data_frame.isnull().values.any()` স্টেটমেন্ট রান করা
-ড
+
 এখানে আমি `pima-data.csv` ফাইলের একটা সেল ইচ্ছে করে ডিলেট করে আবার Pandas দিয়ে লোড করে কোডটা চালিয়ে দেখলাম।
 
 দেখা যাচ্ছে এখন আউটপুট আসছে `True`। তারমানে কোন না কোন একটা সেল খালি আছে।
@@ -254,7 +254,7 @@ corr_heatmap(data_frame)
 
 ##### জেনারেটেড হিটম্যাপ ক্লোজভিউ
 
-![heatmapcloser]()
+![heatmapcloser](http://i.imgur.com/jr68EBl.png)
 
 
 ### লক্ষণীয়
