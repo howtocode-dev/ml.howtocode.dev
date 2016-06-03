@@ -9,5 +9,5 @@
 * [মেশিন লার্নিং কাজের ধারা](workflow/workflow.md)
    * [কীভাবে সঠিক প্রশ্ন করতে হয়?](askquestion/askingRightQuestion.md)
    * [ডেটা প্রিপ্রসেসিং - ১](working_with_data/data_processing.md)
-   * [ডেটা প্রিপ্রেসসিং - শেষ পর্ব](working_with_data/data_processing_part2.md)
+   * [ডেটা প্রিপ্রেসসিং - শেষ পর্ব](working_with_data/data_processing_part_2.md)
 
