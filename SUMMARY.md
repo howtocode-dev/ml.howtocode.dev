@@ -11,4 +11,5 @@
    * [ডেটা প্রিপ্রসেসিং - ১](working_with_data/data_processing.md)
    * [ডেটা প্রিপ্রেসসিং - শেষ পর্ব](working_with_data/data_processing_part_2.md)
    * [অ্যালগরিদম সিলেকশন](algorithm_selection/algo_select.md)
+   * [মডেল ট্রেইনিং](model_training/model_training.md)
 
