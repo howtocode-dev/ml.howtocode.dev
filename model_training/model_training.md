@@ -174,8 +174,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = split_test
 ### ডেটাসেটের স্প্লিটিং কি আসলেই ৭০-৩০ হয়েছে? চেক করা যাক
 
 ```python
-print("{0:0.2f}% in training set".format((len(X_train)/len(df.index)) * 100))
-print("{0:0.2f}% in test set".format((len(X_test)/len(df.index)) * 100))
+print("{0:0.2f}% in training set".format((len(X_train)/len(data_frame.index)) * 100))
+print("{0:0.2f}% in test set".format((len(X_test)/len(data_frame.index)) * 100))
 ```
 
 আউটপুট:
@@ -193,14 +193,14 @@ print("{0:0.2f}% in test set".format((len(X_test)/len(df.index)) * 100))
 অনেক সময় একটা কলামে হয়ত বিভিন্ন ধরণের মান আছে কিন্তু আপনি চেক করতে গিয়ে দেখলেন অনেকগুলা ভ্যালু 0 যেটা সম্ভব নয়। সেটা নিয়ে কীভাবে ডিল করবেন? একটা অ্যালগরিদম আছে যেটা দিয়ে ০ ভ্যালুগুলো রিপ্লেস করে একটা গড় ভ্যালু বসিয়ে কাজ করার মত স্টেটে নেওয়া যায়, সেটা দেখার আগে চলেন দেখি আমাদের কতগুলা ভ্যালু আসলে ০!
 
 ```python
-print("# rows in dataframe {0}".format(len(df)))
-print("# rows missing glucose_conc: {0}".format(len(df.loc[df['glucose_conc'] == 0])))
-print("# rows missing diastolic_bp: {0}".format(len(df.loc[df['diastolic_bp'] == 0])))
-print("# rows missing thickness: {0}".format(len(df.loc[df['thickness'] == 0])))
-print("# rows missing insulin: {0}".format(len(df.loc[df['insulin'] == 0])))
-print("# rows missing bmi: {0}".format(len(df.loc[df['bmi'] == 0])))
-print("# rows missing diab_pred: {0}".format(len(df.loc[df['diab_pred'] == 0])))
-print("# rows missing age: {0}".format(len(df.loc[df['age'] == 0])))
+print("# rows in dataframe {0}".format(len(data_frame)))
+print("# rows missing glucose_conc: {0}".format(len(data_frame.loc[data_frame['glucose_conc'] == 0])))
+print("# rows missing diastolic_bp: {0}".format(len(data_frame.loc[data_frame['diastolic_bp'] == 0])))
+print("# rows missing thickness: {0}".format(len(data_frame.loc[data_frame['thickness'] == 0])))
+print("# rows missing insulin: {0}".format(len(data_frame.loc[data_frame['insulin'] == 0])))
+print("# rows missing bmi: {0}".format(len(data_frame.loc[data_frame['bmi'] == 0])))
+print("# rows missing diab_pred: {0}".format(len(data_frame.loc[data_frame['diab_pred'] == 0])))
+print("# rows missing age: {0}".format(len(data_frame.loc[data_frame['age'] == 0])))
 ```
 
 **আউটপুট:**
