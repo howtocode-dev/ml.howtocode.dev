@@ -13,4 +13,5 @@
    * [অ্যালগরিদম সিলেকশন](algorithm_selection/algo_select.md)
    * [মডেল ট্রেইনিং](model_training/model_training.md)
    * [মডেল পারফর্মেন্স টেস্টিং - ১](model_performance/performance.md)
+   * [মডেল পারফর্মেন্স টেস্টিং - শেষ পর্ব](model_performance/performance_final.md)
 
