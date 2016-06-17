@@ -487,3 +487,9 @@ avg / total       0.73      0.71      0.72       231
 
 
 অনেক বড় হয়ে গেল চ্যাপ্টারটা, তবুও Bias-Variance টা বাদ থেকে গেল। পরবর্তী অন্য কোন পর্বে আমরা দেখব Bias-Variance Trade-off কী জিনিস এবং এর ইম্প্যাক্ট কতখানি।
+
+## Scikit-learn Algorithm Cheat Sheet
+
+ডেটাসেট থেকে অ্যালগো সিলেকশনের উপরে সাইকিটের নিজস্ব একটা চিটশিট আছে। খুবই ইফেক্টিভ,
+
+![cheatsheet](http://scikit-learn.org/stable/_static/ml_map.png)
