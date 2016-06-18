@@ -492,4 +492,4 @@ avg / total       0.73      0.71      0.72       231
 
 ডেটাসেট থেকে অ্যালগো সিলেকশনের উপরে সাইকিটের নিজস্ব একটা চিটশিট আছে। খুবই ইফেক্টিভ,
 
-![cheatsheet](http://scikit-learn.org/stable/_static/ml_map.png)
+![cheatsheet](http://i.imgur.com/acn08NR.png)
