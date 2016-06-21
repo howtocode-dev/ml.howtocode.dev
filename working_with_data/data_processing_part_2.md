@@ -83,7 +83,7 @@ $$\alpha$$ হচ্ছে 5
 এক্স্যাক্ট কোন মডেল বিল্ড না করতে পারলেও হয়ত কাছাকাছি কোন মডেল তৈরি করতে পারব যার ইক্যুয়েশন অনেকটা এরকম হতে পারে,
 
 
-$$ price = \alpha * size + \beta * rooms $$
+$$ price = \alpha \times size + \beta \times rooms $$
 
 ### Correlated Column এর উদাহরণ
 
@@ -98,7 +98,7 @@ $$ price = \alpha * size + \beta * rooms $$
 
 ডেটাসেট এর কলাম ভালভাবে পরীক্ষা না করেই প্রেডিক্ট করতে বসে গেলাম নিচের ফরমুলা (Linear Regression ফরমুলা) দিয়ে,
 
-$$ Price = \alpha * Area \quad (Acre) + \beta * Size(kilo \quad sq \quad meter) + \gamma * noOfRooms $$
+$$ Price = \alpha * Area \, (Acre) + \beta \times Size(kilo \, sq \, meter) + \gamma \times noOfRooms $$
 
 
 আমরা লিনিয়ার রিগ্রেশনের ক্ষেত্রে দেখেছিলাম প্রত্যেকটা ফিচার (ইনপুট ভ্যারিয়েবল) কে একটা Co-efficient দিয়ে গুণ করি তারপর সেগুলোকে যোগ করে আউটপুট প্রেডিক্ট করি। একই রকম কলাম `Area & Size` দুইবার রাখার কারণে আউটপুট `Price` কখনোই ঠিকঠাক আসবে না।
