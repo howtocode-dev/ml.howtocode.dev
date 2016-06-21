@@ -1,5 +1,5 @@
 {
-    "plugins": ["disqus", "mathjax"],
+    "plugins": ["disqus", "mathjax", "todo"],
     "pluginsConfig": {
         "disqus": {
             "shortName": "howtocode-com-bd"
