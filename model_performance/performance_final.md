@@ -8,16 +8,16 @@
 * [x] রেজাল্ট ইন্টারপ্রিটেশন
 * [ ] অ্যাকুরেসি বাড়ানো 
 * [x] কনফিউশন ম্যাট্রিক্স
-	* [x] Recall
-	* [x] Precision
-	* [ ] AUC (Area Under Curve)
-	* [ ] ROC (Receiver Operating Characteristics) - Curve
+* [x] Recall
+* [x] Precision
+* [ ] AUC (Area Under Curve)
+* [ ] ROC (Receiver Operating Characteristics) - Curve
 * [ ] ওভারফিটিং 
 * [ ]  মডেল হাইপারপ্যারামিটার
 * [ ] ওভারফিটিং মিনিমাইজেশন
-	* [ ] K-Fold / N-Fold Cross-validation
-	* [ ] Bias-Variance Trade Off
-	* [ ] ভাল পারফর্মেন্সের জন্য পার্ফেকশন ছাড় দেওয়া
+* [ ] K-Fold / N-Fold Cross-validation
+* [ ] Bias-Variance Trade Off
+* [ ] ভাল পারফর্মেন্সের জন্য পার্ফেকশন ছাড় দেওয়া
 	
 আমরা এখনো এই ধাপে,
 
@@ -493,3 +493,20 @@ avg / total       0.73      0.71      0.72       231
 ডেটাসেট থেকে অ্যালগো সিলেকশনের উপরে সাইকিটের নিজস্ব একটা চিটশিট আছে। খুবই ইফেক্টিভ,
 
 ![cheatsheet](http://i.imgur.com/acn08NR.png)
+
+## শেষ পর্যন্ত যেসব টপিক নিয়ে আলোচনা করা হল
+
+* [x] টেস্ট ডেটার মাধ্যমে মডেল এভালুয়েশন
+* [x] রেজাল্ট ইন্টারপ্রিটেশন
+* [x] অ্যাকুরেসি বাড়ানো 
+* [x] কনফিউশন ম্যাট্রিক্স
+* [x] Recall
+* [x] Precision
+* [x] AUC (Area Under Curve)
+* [x] ROC (Receiver Operating Characteristics) - Curve
+* [x] ওভারফিটিং 
+* [x]  মডেল হাইপারপ্যারামিটার
+* [x] ওভারফিটিং মিনিমাইজেশন
+* [x] K-Fold / N-Fold Cross-validation
+* [ ] Bias-Variance Trade Off
+* [x] ভাল পারফর্মেন্সের জন্য পার্ফেকশন ছাড় দেওয়া
