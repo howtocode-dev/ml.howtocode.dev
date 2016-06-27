@@ -344,11 +344,11 @@ $$ J (90000, 120) =  1453400280 $$
  
  ### Resuidual, MSE (Mean Square Error), OLS (Ordinary Least Square), Loss Function কোনটার মানে কী?
  
-  *  **Resuidual এর মানে সবকয়টি Observation এর প্রডিক্টেড ভ্যালু আর আসল ভ্যালুর পার্থক্যের যোগফল। Error এর সমষ্টি বলতে যা বুঝায়, তা-ই।**
+*  **Resuidual এর মানে সবকয়টি Observation এর প্রডিক্টেড ভ্যালু আর আসল ভ্যালুর পার্থক্যের যোগফল। Error এর সমষ্টি বলতে যা বুঝায়, তা-ই।**
  
- *  **MSE বলতে সবকয়টি Observation এর Error এর বর্গের সমষ্টি বুঝায়**
+*  **MSE বলতে সবকয়টি Observation এর Error এর বর্গের সমষ্টি বুঝায়**
  
- * **Ordinary Least Square হল Statistical Estimator, যার সাহায্যে Cost ক্যালকুলেট করছি**
+* **Ordinary Least Square হল Statistical Estimator, যার সাহায্যে Cost ক্যালকুলেট করছি**
  
 *  **Loss Function হল Cost Function এর আরেকটা নাম বা Alias**
  
