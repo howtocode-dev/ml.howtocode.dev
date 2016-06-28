@@ -352,7 +352,7 @@ $$ J (90000, 120) =  1453400280 $$
  
 *  **Loss Function হল Cost Function এর আরেকটা নাম বা Alias**
 
-* *RSS* এর সূত্র হল $$ RSS = \sum_{m}^{i=1}Residual^{2} $$   
+* *RSS* এর সূত্র হল $$ RSS = \sum_{i=1}^{m}Residual^{2} $$   
  
 ### Cost Function এর মেথড হিসেবে OLS ব্যবহার করা হয়েছে কেন?
 
