@@ -181,11 +181,11 @@ $$ \frac{\delta z} {\delta y} = 2y + x $$ যখন $$ x $$ ধ্রুবক
 
 ### অ্যালগরিদম
 
-$$ repeat until convergence { $$
+```repeat until convergence {``` 
 
 $$ \theta_{j} := \theta_{j} - \alpha \frac{\delta}{\delta \theta_{j} J(\theta_{j}) $$
 
-$$ } $$  
+```}```
 
 #### ম্যাথমেটিক্যাল নোটেশন
 
