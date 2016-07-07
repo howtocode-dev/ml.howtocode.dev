@@ -183,7 +183,7 @@ $$ \frac{\delta z} {\delta y} = 2y + x $$ যখন $$ x $$ ধ্রুবক
 
 ```repeat until convergence {``` 
 
-$$ \theta_{j} := \theta_{j} - \alpha \frac{\delta}{\delta \theta_{j} J(\theta_{j}) $$
+$$ \theta_{j} := \theta_{j} - \alpha \frac{\delta}{\delta \theta_{j}} J(\theta_{j}) $$
 
 ```}```
 
