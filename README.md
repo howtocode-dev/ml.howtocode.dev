@@ -14,7 +14,7 @@
 
 তড়িৎ ও ইলেক্ট্রনিক কৌশল, ৪র্থ বর্ষ, খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়
 
-[ইমেইল](manashmndl@gmail.com) | [গিটহাব](http://github.com/manashmndl) | [ফেসবুক](http://facebook.com/JackspicerPhoenix) 
+[ইমেইল](mailto:manashmndl@gmail.com) | [গিটহাব](http://github.com/manashmndl) | [ফেসবুক](http://facebook.com/JackspicerPhoenix) 
 
 
 ## ভূমিকা
