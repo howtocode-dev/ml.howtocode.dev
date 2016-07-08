@@ -8,6 +8,12 @@
 
 <iframe scrolling="auto" frameborder="0" style="border:none; overflow:hidden; height:170px; width:100%; margin-left: 15;" allowTransparency="true" src="http://www.howtocode.com.bd/contributions.html?repo=ml"></iframe>
 
+## কোর্স পরিচালনায়
+
+মানস কুমার মণ্ডল
+তড়িৎ ও ইলেক্ট্রনিক কৌশল, ৪র্থ বর্ষ, খুলনা প্রকৌশল ও প্রযুক্তি বিশ্ববিদ্যালয়
+[ইমেইল](manashmndl@gmail.com) | [গিটহাব](http://github.com/manashmndl) | [ফেসবুক](http://facebook.com/JackspicerPhoenix) 
+
 
 ## ভূমিকা
 ***
