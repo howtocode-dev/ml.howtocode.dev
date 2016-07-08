@@ -9,5 +9,10 @@
 h2 {
   width: 100%;
   font-family: notobold;
-  border-bottom: solid 5px #00796B;
+  border-bottom: solid 4px #00796B;
+}
+
+h3 {
+    color: #512DA8;
+    border-bottom: solid 1px #536DFE;
 }
