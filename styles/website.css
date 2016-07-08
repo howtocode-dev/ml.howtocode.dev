@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'notobold';
+    src: url('fonts/NotoSansBengali-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 h2 {
   width: 100%;
+  font-family: notobold;
   border-bottom: solid 5px #00796B;
 }
