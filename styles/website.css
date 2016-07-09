@@ -5,6 +5,23 @@
     font-style: normal;
 }
 
+.retro {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0 auto;
+  border: none;
+  /*font: normal 82px/normal "Anton", Helvetica, sans-serif;*/
+  font-family: 'notobold';
+  color: rgb(112, 112, 112);
+  text-align: center;
+  text-transform: uppercase;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 10px;
+  text-shadow: 4px 4px 0 rgb(238,238,238) , 6px 6px 0 rgb(112,112,112) ;
+}
+
 
 h2 {
   width: 100%;
