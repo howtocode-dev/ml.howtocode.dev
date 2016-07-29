@@ -238,21 +238,30 @@ avg / total       0.74      0.74      0.74       231
 
 ##### `Precision` বের করার সূত্র
 
+<div class="equation">
 $$ Precision = \frac{TP}{TP + FP} $$
+</div>
 
-`Precision = TP / (TP + FP)
-
-অর্থাৎ, পার্ফেক্ট প্রিসিশনের জন্য আমরা জানি, FP = 0, সুতরাং 100% Accurate Model এর Precision = TP / (TP + 0) = TP/ TP = 1
-
+অর্থাৎ, পার্ফেক্ট প্রিসিশনের জন্য আমরা জানি, FP = 0, সুতরাং 100% Accurate Model এর 
+<div class="equation">
+$$
+Precision = \frac{TP}{TP + 0} = \frac{TP}{TP} = 1
+$$
+</div>
 এর অর্থ হচ্ছে Precision এর মান যত বড় ততই ভাল। আমাদের টার্গেট থাকবে Precision এর মান যতটা বড় করা যায়।
 
 ##### `Recall` বের করার সূত্র
 
+<div class="equation">
 $$ Recall = \frac{TP}{TP + FN} $$
+</div>
 
-`Recall = TP / (TP + FN)` 
-
-একই ভাবে, 100% Accurate Model এর Recall = TP / (TP + 0) = TP / TP = 1
+একই ভাবে, 100% Accurate Model এর ক্ষেত্রে
+<div class="equation">
+$$
+Recall = \frac{TP}{TP + 0} = \frac{TP}{TP} = 1
+$$
+</div>
 
 আবারও, আমাদের লক্ষ থাকবে Recall এর মান যতটা বাড়ানো যায়।
 
