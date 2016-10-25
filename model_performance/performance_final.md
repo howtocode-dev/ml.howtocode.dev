@@ -200,9 +200,9 @@ AUC দিয়ে পারফর্মেন্স পরিমাপ করা 
 $$ Y = ax^{3} + bx $$
 
 
-আমরা এর লার্নিং কন্ট্রোল করার জন্য, (x * lambda) অংশ রেজাল্ট থেকে বিয়োগ দিয়ে `Regularized Model` তৈরি করতে পারি,
+আমরা এর লার্নিং কন্ট্রোল করার জন্য, $$( x \times \lambda )$$ অংশ রেজাল্ট থেকে বিয়োগ দিয়ে `Regularized Model` তৈরি করতে পারি,
 
-$$ Y = ax^{3} + bx - \lambdax $$
+$$ Y = ax^{3} + bx - \lambda \times x $$
 
 
 এখানে,$$ \lambda $$ ই হল Regularization Hyperparameter।
