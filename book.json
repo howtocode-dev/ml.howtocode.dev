@@ -1,6 +1,6 @@
 {
 	"gitbook": "2.x.x",
-	"plugins": ["disqus", "mathjax", "todo", "github", "edit-link"],
+	"plugins": ["disqus", "github", "edit-link"],
 	"pluginsConfig": {
 		"disqus": {
 			"shortName": "howtocode-com-bd"
