@@ -149,7 +149,6 @@
 জুপিটার নোটবুক বের করে আগের করা কোডটিতে লেখা শুরু করুন।
 
 ```python
- 
 from sklearn.model_selection import train_test_split
     
 feature_column_names = ['num_preg', 'glucose_conc', 'diastolic_bp', 'thickness', 'insulin', 'bmi', 'diab_preb', 'age']
@@ -162,7 +161,7 @@ X = data_frame[feature_column_names].values
 y = data_frame[predicted_class_name].values
 
 # Saving 30% for testing
-split_test_size = 30
+split_test_size = 0.30
 
 # Splitting using scikit-learn train_test_split function
 
