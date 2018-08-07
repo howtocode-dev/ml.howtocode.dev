@@ -81,7 +81,7 @@ from sklearn import metrics
 
 accuracy = metrics.accuracy_score(y_train, prediction_from_trained_data)
 
-print "Accuracy of our naive bayes model is : {0:.4f}".format(accuracy)
+print ("Accuracy of our naive bayes model is : {0:.4f}".format(accuracy))
 
 ```
 
@@ -126,19 +126,19 @@ prediction_from_test_data = nb_model.predict(X_test)
 
 accuracy = metrics.accuracy_score(y_test, prediction_from_test_data)
 
-print "Accuracy of our naive bayes model is: {0:0.4f}".format(accuracy)
+print ("Accuracy of our naive bayes model is: {0:0.4f}".format(accuracy))
 
 ```
 
 ### আউটপুট
 
 ```
-Accuracy of our naive bayes model is: 0.7359
+Accuracy of our naive bayes model is: 0.7000
 ```
 
 ![p_t](http://i.imgur.com/7hPm7Cz.gif)
 
-তার মানে হল সিলেবাসের বাইরে থেকে প্রশ্ন জিজ্ঞাসা করলেও সে ৭০% অ্যাকুরেসির সাথে উত্তর দিতে পারছে, তারমানে তার দেওয়া উত্তরের ৭৩% সঠিক এবং বাকিটা ভুল।
+তার মানে হল সিলেবাসের বাইরে থেকে প্রশ্ন জিজ্ঞাসা করলেও সে ৭০% অ্যাকুরেসির সাথে উত্তর দিতে পারছে, তারমানে তার দেওয়া উত্তরের ৭০% সঠিক এবং বাকিটা ভুল।
 
 আমরা এটাই  চেয়েছিলাম, অর্থাৎ আমরা যদি এই ট্রেইন্ড মডেলে এবার নতুন পরীক্ষিত কোন ব্যক্তির ডেটা ইনপুট দেই তাহলে তার উত্তর সঠিক হওয়ার সম্ভাবনা ৭৩%। যদি মডেল বলে নতুন ব্যক্তির ডায়বেটিস হতে পারে, তার likelihood হল ৭০%। 
 
@@ -155,10 +155,10 @@ Accuracy of our naive bayes model is: 0.7359
 আপাতত জেনে রাখুন কনফিউশন ম্যাট্রিক্স দিয়ে আমরা জানতে পারব আমাদের মডেলের পার্ফর্মেন্স কীরকম। তাহলে নিচের কোডটি লিখুন,
 
 ```python
-print "Confusion Matrix"
+print ("Confusion Matrix")
 
 # labels for set 1=True to upper left and 0 = False to lower right
-print "{0}".format(metrics.confusion_matrix(y_test, prediction_from_test_data, labels=[1, 0]))
+print ("{0}".format(metrics.confusion_matrix(y_test, prediction_from_test_data, labels=[1, 0])))
 ```
 
 ![performance2](http://i.imgur.com/z609uE0.gif)
@@ -214,10 +214,10 @@ TN = আসল আউটপুট হল ০ এবং আমাদের মড
 ক্লাসিফিকেশন রিপোর্ট জেনারেট হয় আসলে কনফিউশন ম্যাট্রিক্সের ডেটার উপরে। ক্লাসিফিকেশন রিপোর্ট দেখার জন্য নিচের স্টেটমেন্ট রান করুন,
 
 ```python
-print "Classification Report"
+print ("Classification Report")
 
 # labels for set 1=True to upper left and 0 = False to lower right
-print "{0}".format(metrics.classification_report(y_test, prediction_from_test_data, labels=[1, 0]))
+print ("{0}".format(metrics.classification_report(y_test, prediction_from_test_data, labels=[1, 0])))
 ```
 
 ### রিপোর্ট আউটপুট
@@ -322,7 +322,7 @@ rf_predict_train = rf_model.predict(X_train)
 rf_accuracy = metrics.accuracy_score(y_train, rf_predict_train)
 
 #print accuracy
-print "Accuracy: {0:.4f}".format(rf_accuracy)
+print ("Accuracy: {0:.4f}".format(rf_accuracy))
 ```
 
 #### আউটপুট:
@@ -342,34 +342,34 @@ rf_predict_test = rf_model.predict(X_test)
 rf_accuracy_testdata = metrics.accuracy_score(y_test, rf_predict_test)
 
 #print accuracy
-print "Accuracy: {0:.4f}".format(rf_accuracy_testdata)
+print ("Accuracy: {0:.4f}".format(rf_accuracy_testdata))
 ```
 
 #### আউটপুট:
 
 ```
-Accuracy: 0.7100
+Accuracy: 0.7000
 
 ```
 
-টেস্টিং ডেটার ক্ষেত্রে অ্যাকুরেসি ৭১% আর ট্রেইনিং ডেটায় ৯৮%। অর্থাৎ সিলেবাসের প্রশ্নে উত্তর ভালই দিতে পারছে কিন্তু এর বাইরে থেকে প্রশ্ন করলে উত্তর বেশ খারাপই আসছে। এর মানে সে রিয়েল ওয়ার্ল্ড ডেটায় ভাল প্রেডিক্ট করতে পারছে না, কিন্তু যে ডেটাসেট এর মাধ্যমে যেটা শিখেছে, সেখান থেকে ভাল প্রেডিক্ট করতে পারছে। 
+টেস্টিং ডেটার ক্ষেত্রে অ্যাকুরেসি ৭০% আর ট্রেইনিং ডেটায় ৯৮%। অর্থাৎ সিলেবাসের প্রশ্নে উত্তর ভালই দিতে পারছে কিন্তু এর বাইরে থেকে প্রশ্ন করলে উত্তর বেশ খারাপই আসছে। এর মানে সে রিয়েল ওয়ার্ল্ড ডেটায় ভাল প্রেডিক্ট করতে পারছে না, কিন্তু যে ডেটাসেট এর মাধ্যমে যেটা শিখেছে, সেখান থেকে ভাল প্রেডিক্ট করতে পারছে। 
 
 এর চেয়ে তো আমাদের Naive Bayes মডেল ভাল কাজ করছিল! আমাদের টেস্টিং ডেটায় ভাল অ্যাকুরেসি দরকার।
 
 এবার দেখা যাক Random Forest মডেলের ক্লাসিফিকেশন রিপোর্ট কেমন! আমরা উপর থেকে ধার করা কোড কিছুটা পরিবর্তন করেই বসিয়ে দিতে পারি! 
 
 ```python
-print "Confusion Matrix for Random Forest"
+print ("Confusion Matrix for Random Forest")
 
 # labels for set 1=True to upper left and 0 = False to lower right
-print "{0}".format(metrics.confusion_matrix(y_test, rf_predict_test, labels=[1, 0]))
+print ("{0}".format(metrics.confusion_matrix(y_test, rf_predict_test, labels=[1, 0])))
 
-print ""
+print ("")
 
-print "Classification Report\n"
+print ("Classification Report\n")
 
 # labels for set 1=True to upper left and 0 = False to lower right
-print "{0}".format(metrics.classification_report(y_test, rf_predict_test, labels=[1, 0]))
+print ("{0}".format(metrics.classification_report(y_test, rf_predict_test, labels=[1, 0])))
 
 ```
 
