@@ -189,7 +189,7 @@ import numpy as np
 
 ![import](http://i.imgur.com/egqIvbd.gif)
 
-#### `pd.read_csv('file_path')`
+#### `pd.read_csv(r'file_path')`
 
 আমরা এখানে `pandas` লাইব্রেরি কে `pd` হিসেবে (`as`) ইম্পোর্ট করেছি, তারমানে `pandas` এর কোন ফাংশন কল করার জন্য আমার `pandas` কথাটা পুরা লেখার দরকার নাই, `pd` লিখলেই হবে।
 
