@@ -149,9 +149,9 @@
 জুপিটার নোটবুক বের করে আগের করা কোডটিতে লেখা শুরু করুন।
 
 ```python
-from sklearn.cross_validation import train_test_split
-
-feature_column_names = ['num_preg', 'glucose_conc', 'diastolic_bp', 'thickness', 'insulin', 'bmi', 'diab_pred', 'age']
+from sklearn.model_selection import train_test_split
+    
+feature_column_names = ['num_preg', 'glucose_conc', 'diastolic_bp', 'thickness', 'insulin', 'bmi', 'diab_preb', 'age']
 
 predicted_class_name = ['diabetes']
 
