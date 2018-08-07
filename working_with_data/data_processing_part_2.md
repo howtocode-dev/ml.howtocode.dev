@@ -287,7 +287,7 @@ corr_heatmap(data_frame)
 # Deleting 'skin' column completely
 del data_frame['skin']
 # Checking if the action was successful or not
-df.head()
+data_frame.head()
 ```
 
 ![vanish](http://i.imgur.com/4StJ8jF.gif)
@@ -362,8 +362,8 @@ for item in data_frame['diabetes']:
 percent_true = (num_true / (num_true + num_false)) * 100
 percent_false = (num_false / (num_true + num_false)) * 100
 
-print "Number of True Cases: {0} ({1:2.2f}%)".format(num_true, percent_true)
-print "Number of False Cases: {0} ({1:2.2f}%)".format(num_false, percent_false)
+print ("Number of True Cases: {0} ({1:2.2f}%)".format(num_true, percent_true))
+print ("Number of False Cases: {0} ({1:2.2f}%)".format(num_false, percent_false))
 ```
 
 **আউটপুট:**
@@ -379,8 +379,8 @@ Number of False Cases: 500.0 (65.10%)
 # Pythonic Way
 num_true = len(data_frame.loc[data_frame['diabetes'] == True])
 num_false = len(data_frame.loc[data_frame['diabetes'] == False])
-print "Number of True Cases: {0} ({1:2.2f}%)".format(num_true, (num_true / (num_true + num_false)) * 100))
-print "Number of False Cases: {0} ({1:2.2f}%)".format(num_false, (num_true / (num_true + num_false)) * 100))
+print ("Number of True Cases: {0} ({1:2.2f}%)".format(num_true, (num_true / (num_true + num_false)) * 100))
+print ("Number of False Cases: {0} ({1:2.2f}%)".format(num_false, (num_true / (num_true + num_false)) * 100))
 ```
 ‍‍‍
 ### Data Rule #4
